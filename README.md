@@ -4,7 +4,7 @@
 1. Data Collection with API
 2. Data Collection with webscrapping
 3. Data Wrangling
-4. EXploratory Analysis using SQL
+4. Exploratory Analysis using SQL
 5. Exploratory Analysis using Pandas and MatplotLib
 6. Interactive Visual Analytics using Folium
 7. Interactive Dashboard with Plotly Dash
