@@ -60,6 +60,7 @@ def get_pie_chart(entered_site):
         fig = px.pie(grouped_df,values='count',
         names='Launch Site',
         title='Successful Launches from all launch sites')
+        fig.update_traces(textinfo='value+percent')
         return fig
     else:
         select_site = grouped_df[grouped_df['Launch Site']==entered_site]
@@ -68,6 +69,7 @@ def get_pie_chart(entered_site):
         fig = px.pie(select_site,values='count',
         names=success,
         title=f'Launches from {entered_site} launch site')
+        fig.update_traces(textinfo='value+percent')
         return fig
 
 # TASK 4:
